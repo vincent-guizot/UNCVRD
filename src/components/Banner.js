@@ -6,7 +6,12 @@ export default function Banner() {
   return (
     <div className="w-full h-screen flex items-center justify-center bg-stone-900">
       <div>
-        <Image width={576} src="/assets/images/logo.png" alt="Logo" />
+        <Image
+          width={576}
+          height={0}
+          src="/assets/images/logo.png"
+          alt="Logo"
+        />
         <h1 className="banner-bodytext text-center text-3xl py-5">
           "Uncovering Visuals from your Vision."
         </h1>
