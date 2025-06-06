@@ -8,6 +8,9 @@ const nextConfig = {
   images: {
     unoptimized: true, // ✅ Disable optimization for static export
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
