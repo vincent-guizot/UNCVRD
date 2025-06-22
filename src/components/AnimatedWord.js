@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function AnimatedWord({ label, positionClass, delay, isRed }) {
   return (
     <motion.div
-      className={`absolute ${positionClass}  font-semibold ${
+      className={`absolute ${positionClass} text-2xl font-semibold ${
         isRed ? "text-red-500" : "text-white"
       }`}
       initial={{ opacity: 0 }}

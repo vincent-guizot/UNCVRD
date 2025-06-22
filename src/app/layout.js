@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import { ScrollProvider } from "../context/ScrollProvider"; // adjust path if needed
 
 export const metadata = {
   title: "UNCVRD - Uncovering Visuals from your Vision.",
@@ -11,7 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <ScrollProvider>{children}</ScrollProvider>
+      </body>
     </html>
   );
 }
