@@ -24,9 +24,9 @@ export default function OurStory() {
   return (
     <section
       ref={sectionRef}
-      className="bg-red-800 w-1/2 mx-auto text-white py-24 px-8"
+      className="bg-red-800 w-full text-white py-24 px-8"
     >
-      <div className="grid grid-cols-2 gap-8">
+      <div className="max-w-6xl mx-auto grid grid-cols-2 gap-8">
         <motion.div
           className="text-left"
           variants={variants}
