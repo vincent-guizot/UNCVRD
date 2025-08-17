@@ -2,7 +2,7 @@
 import { useContext, useEffect, useRef, useState } from "react";
 import { ScrollContext } from "@/context/ScrollProvider";
 import Image from "next/image";
-import galleryImg from "@/assets/images/IMG_42671.jpg"; // Replace with your image
+// import galleryImg from "@/assets/images/IMG_42671.jpg"; // Replace with your image
 
 export default function Galleries() {
   const { scrollY } = useContext(ScrollContext);
@@ -36,13 +36,13 @@ export default function Galleries() {
       <div className="h-[60vh] relative bg-white">
         <div className="absolute inset-0 flex items-center justify-end pr-4">
           <div className="h-full max-h-full w-auto">
-            <Image
+            {/* <Image
               src={galleryImg}
               alt="Gallery"
               className="h-full object-cover rounded-lg shadow-lg"
               width={500}
               height={500}
-            />
+            /> */}
           </div>
         </div>
       </div>

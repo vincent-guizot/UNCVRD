@@ -2,7 +2,7 @@
 import { useContext, useEffect, useState, useRef } from "react";
 import { ScrollContext } from "@/context/ScrollProvider";
 import Image from "next/image";
-import focusBg from "@/assets/images/IMG_42671.jpg"; // replace with your image
+// import focusBg from "@/assets/images/IMG_42671.jpg"; // replace with your image
 import logo from "@/assets/images/logo.png"; // replace with your logo
 
 export default function Focusing() {
@@ -25,13 +25,13 @@ export default function Focusing() {
       className="relative h-[50vh] flex items-center justify-center overflow-hidden"
     >
       {/* Background Image */}
-      <Image
+      {/* <Image
         src={focusBg}
         alt="Background"
         fill
         className="object-cover z-0"
         priority
-      />
+      /> */}
       {/* Darker Overlay */}
       <div className="absolute inset-0 bg-black/80 z-10" />
 

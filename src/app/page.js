@@ -12,7 +12,6 @@ export default function Home() {
       <Hero></Hero>
       <OurStory></OurStory>
       <OurWorks></OurWorks>
-
       <Focusing />
       <Galleries />
       <Value />
